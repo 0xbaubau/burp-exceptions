@@ -71,7 +71,7 @@ def FixBurpExceptions():
         FixBurpExceptionsForClass(cls)
 ```
 
-We're just iterating over all classes defined in ```__main__``` module (which is just the main file of your Burp extension) and calling ```FixBurpExceptions```.
+We're just iterating over all classes defined in ```__main__``` module (which is just the main file of your Burp extension) and calling ```FixBurpExceptionsForClass```.
 
 ```python
 def FixBurpExceptionsForClass(cls):
